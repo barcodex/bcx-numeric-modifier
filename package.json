@@ -1,0 +1,22 @@
+{
+  "name": "bcx-numeric-modifier",
+  "version": "0.0.2",
+  "description": "Numeric modifier for template processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:barcodex/bcx-numeric-modifier.git"
+  },
+  "keywords": [
+    "templating"
+  ],
+  "author": "Anvarzon Zurajev <barcodex@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barcodex/bcx-numeric-modifier/issues"
+  },
+  "homepage": "https://github.com/barcodex/bcx-numeric-modifier"
+}
