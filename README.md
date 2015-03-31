@@ -1,6 +1,6 @@
 # bcx-numeric-modifier
 
-This tiny Node module is all about modifying some string value using predefined set of rules.
+This tiny Node module is all about modifying some numeric value using predefined set of rules.
 
 These rules are called modifiers and the object has only apply method that receives modifier name and other parameters.
 
@@ -15,7 +15,9 @@ This makes it really interesting from OSS community's perspective, because every
 
 ## Installation
 
+```
 npm install bcx-numeric-modifier
+```
 
 ## Quick example
 

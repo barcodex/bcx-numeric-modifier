@@ -5,7 +5,7 @@ value   - base value to modify
 name    - name of the modifier
 params  - parameters of the modifier
 data    - array of data that is available for processing
-options - additional options for scalar modifier
+options - additional options for numeric modifier
 */
 function apply(value, name, params, data, options) {
 	options = options || {};
@@ -17,7 +17,7 @@ function apply(value, name, params, data, options) {
             value = Math.round(value);
             break;
 		case 'htmlcomment':
-        	value = '<!--' + value.toString().toUpperCase() + '-->';
+        	value = '<!--' + value.toString() + '-->';
         	break;
     }
 
